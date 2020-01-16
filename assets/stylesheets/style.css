@@ -1,0 +1,40 @@
+html {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 5px;
+}
+
+#boardDisplay {
+    background-color: chocolate;
+    padding: 5%;
+}
+
+.space {
+    width: 5%;
+    height: 5%;
+    margin: .5%;
+    border: solid;
+    border-color: chocolate;
+    position: relative;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+}
+
+.marble {
+    width: 5%;
+    height:5%;
+    margin: .5%;
+    position: relative;
+    border: solid;
+    border-color: black;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+}
+
+/* Marbles */
